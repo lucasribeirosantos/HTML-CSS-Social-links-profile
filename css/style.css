@@ -1,0 +1,74 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: "Inter", sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+main {
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    background-color: hsl(0, 0%, 12%);
+    text-align: center;
+    padding: 35px;
+    border-radius: 12px;
+    width: 400px;
+}
+
+.container .profile-image {
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+}
+
+.info .nome {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 25px;
+}
+
+.info .local {
+    color: hsl(75, 94%, 57%);
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.info .descricao {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+.social {
+    font-size: 14px;
+}
+
+.social p {
+    background-color: hsl(0, 0%, 20%);
+    margin-top: 15px;
+    padding: 15px 0px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.social p:hover {
+    color: black;
+    background-color: hsl(75, 94%, 57%);
+}
+
+.attribution {
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.attribution a {
+    text-decoration: underline;
+    color: hsl(75, 94%, 57%);
+}
